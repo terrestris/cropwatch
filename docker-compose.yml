@@ -1,0 +1,26 @@
+version: '3'
+services:
+  cropwatch-backend:
+    build:
+      context: 'backend'
+      dockerfile: 'Dockerfile'
+    volumes:
+      - /var/data/tractor_images:/data/tractor_images:Z
+  cropwatch-frontend:
+    build:
+      context: 'frontend'
+      dockerfile: 'Dockerfile'
+  cropwatch-geoserver:
+    build:
+      context: 'geoserver'
+      dockerfile: 'Dockerfile'
+    volumes:
+      - /var/data/geoserver_data:/opt/geoserver_data:Z
+  cropwatch-postgis:
+    image: mdillon/postgis:9.6-alpine
+    environment:
+      POSTGRES_USER: cropwatch
+      POSTGRES_PASSWORD: cropwatch
+    volumes:
+      - ./postgresql_init_data:/docker-entrypoint-initdb.d
+      - ./postgresql_data:/var/lib/postgresql/data:Z
