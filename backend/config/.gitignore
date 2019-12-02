@@ -1,0 +1,5 @@
+# Sensible files are ignored
+database.js
+passport.js
+projectPassword.js
+upload.js

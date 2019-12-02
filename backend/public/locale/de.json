@@ -1,0 +1,410 @@
+{
+  "General": {
+    "yes": "Ja",
+    "no": "Nein",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "ok": "Ok",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "logout": "Abmelden",
+    "from": "Von",
+    "until": "Bis",
+    "search": "Suchen",
+    "import": "Importieren",
+    "edit": "Bearbeiten",
+    "loading": "Lade",
+    "error": "Fehler",
+    "warning": "Achtung",
+    "title": "Titel",
+    "date": "Datum",
+    "pleaseChoose": "Bitte auswählen"
+  },
+  "Entities": {
+    "farm": "Betrieb",
+    "farms": "Betriebe",
+    "field": "Feld",
+    "fields": "Felder",
+    "experiment": "Versuch",
+    "experiments": "Versuche",
+    "plot": "Parzelle",
+    "plots": "Parzellen",
+    "weatherstation": "Wetterstation",
+    "weatherstations": "Wetterstationen",
+    "manager": "Manager",
+    "managers": "Manager",
+    "trait": "Merkmal",
+    "traits": "Merkmale",
+    "traitcollection": "Merkmalsammlung",
+    "traitcollections": "Merkmalsammlungen",
+    "experimentalfactor": "Versuchsfaktor",
+    "experimentalfactors": "Versuchsfaktoren",
+    "rasterfile": "Rasterdatei",
+    "rasterfiles": "Rasterdateien",
+    "storedquery": "Gespeicherte Abfrage",
+    "storedqueries": "Gespeicherte Abfragen",
+    "crop": "Frucht",
+    "crops": "Früchte",
+    "sort": "Sorte",
+    "sorts": "Sorten"
+  },
+  "Models": {
+    "Plot": {
+      "remarks": "Bemerkungen",
+      "croprotation": "Fruchtfolge",
+      "replicationLevel": "Wiederholung",
+      "harvestyear": "Erntejahr"
+    }
+  },
+  "Routes": {
+    "analysis": "Analyse",
+    "management": "Verwaltung",
+    "data": "Daten Administration",
+    "import": "Import",
+    "map": "Karte",
+    "entity": "Strukturdaten",
+    "measurements": "Messdaten",
+    "tractor": "Traktor Bilder",
+    "aerial": "Drohnen Bilder",
+    "grid": "Tabelle",
+    "chart": "Chart",
+    "login": "Anmeldung",
+    "registration": "Registrierung"
+  },
+  "WebSocket": {
+    "closedByServer": "WebSocket-Verbindung vom Server unterbrochen"
+  },
+  "LoginForm": {
+    "name": "Name",
+    "username": "Benutzername",
+    "password": "Passwort",
+    "failed": "Anmeldung fehlgeschlagen",
+    "bytokenfailed": "Benutzer per Token bestimmen fehlgeschlagen"
+  },
+  "RegistrationForm": {
+    "failed": "Registrierung fehlgeschlagen",
+    "success": "Registrierung von {{user}} war erfolgreich. Sie können sich nun einloggen.",
+    "title": "Titel",
+    "givenname": "Vorname",
+    "familyname": "Nachname",
+    "username": "Benutzername",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirmpassword": "Passwort bestätigen",
+    "mobile": "Mobil",
+    "landline": "Festnetz",
+    "fax": "Fax",
+    "street": "Straße",
+    "housenumber": "Hausnummer",
+    "zipcode": "Postleitzahl",
+    "city": "Ort",
+    "register": "Registrieren",
+    "projectPassword": "Projektpasswort"
+  },
+  "ImprintButton": {
+    "imprint": "Impressum"
+  },
+  "ImprintDialog": {
+    "close": "Schließen",
+    "imprint": "Impressum",
+    "technicalImplementation": "Technische Umsetzung:",
+    "phone": "Telefon",
+    "fax": "Fax"
+  },
+  "FeatureGrid": {
+    "parcels": "Parzelle",
+    "weatherStation": "Wetterstation",
+    "timestamp": "Zeitstempel",
+    "experimentFactor": "Versuchsfaktor {{factor}}",
+    "noGeometry": "Das ausgewählte Feature enthält keine Geometrie.",
+    "measurements": "Messungen",
+    "fields": "Felder",
+    "valueBasedStyling": "Wertebedingtes Styling"
+  },
+  "GridMenu": {
+    "columnVisibility": "Spaltensichtbarkeit",
+    "adaptColumns": "Spaltenbreite an Bildschirm anpassen",
+    "categories": {
+      "allocation": "Zuordnungen (räumlich/zeitlich)",
+      "association": "Zuordnungen (Entitäten)",
+      "property": "Parzelleneingeschaften",
+      "characteristics": "Sorteneigenschaften",
+      "experimentalFactor": "Versuchsfaktoren",
+      "trait": "Merkmale",
+      "general": "Allgemein"
+    },
+    "sum": "Gesamtsumme",
+    "min": "Minimum",
+    "max": "Maximum",
+    "avg": "Mittelwert",
+    "columnBased": "Spaltenbasiert",
+    "rowBased": "Zeilenbasiert",
+    "statistics": "Statistik"
+  },
+  "AnalysisGrid": {
+    "geometry": "Geometrie",
+    "timestamp": "Zeitstempel",
+    "experimentFactor": "Versuchsfaktor {{factor}}",
+    "dataUpdated": "Daten wurden erfolgreich aktualisiert.",
+    "dataError": "Daten konnten nicht aktualisiert werden: {{error}}",
+    "dataLoading": "Daten werden geladen",
+    "measurements": "Messungen",
+    "exportAsCsv": "Als csv exportieren",
+    "addToChart": "Zum Liniendiagramm hinzufügen",
+    "showChart": "Liniendiagramm anzeigen",
+    "resetChart": "Liniendiagramm zurücksetzen"
+  },
+  "ApplicationHeader": {
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "logout": "{{user}} abmelden"
+  },
+  "LanguageSwitcher": {
+    "language": "Sprache",
+    "languages": {
+      "de": "Deutsch",
+      "en": "Englisch"
+    }
+  },
+  "CopterLayerSlider": {
+    "orthofotos": "Luftbilder-Slider"
+  },
+  "DataAnalysisPage": {
+    "advancedMode": "Erweitert",
+    "search": "Daten suchen",
+    "weatherStations": "Wetterstationen",
+    "fields": "Felder",
+    "experiments": "Experimente",
+    "parcel": "Parzelle",
+    "from": "Von",
+    "until": "Bis",
+    "includePoints": "Within Filter",
+    "includePointsTooltip": "Bei gesetztem Haken werden nur Punktmessungen abgefragt, die innerhalb der Geometrien der ausgewählten Parzellen liegen.",
+    "traitCollection": "Merkmalsammlung",
+    "traits": "Merkmale",
+    "limitSearch": "Bitte Messdaten einschränken. (Maximal 20 000 Treffer)",
+    "showResults": "{{count}} Messwerte anzeigen",
+    "searchResults": "Suchen ({{count}})",
+    "reset": "Zurücksetzen",
+    "storeQuery": "Abfrage speichern",
+    "selectStoredQuery": "Gespeicherte Abfrage laden",
+    "day": "Tag",
+    "week": "Woche",
+    "month": "Monat",
+    "year": "Jahr",
+    "days": "Tage",
+    "weeks": "Wochen",
+    "months": "Monate",
+    "years": "Jahre",
+    "last": "Letzte",
+    "lasts": "Letzten",
+    "intervalType": "Zeitraum",
+    "measurementsLoaded": "{{count}} Messwerte geladen",
+    "compareByTimestamp": "Zeitlich vergleichen",
+    "compareByTimestampTooltip": "Zeitlicher Vergleich von Merkmalen",
+    "gridView": "Zur Tabellen Ansicht",
+    "chartView": "Zur Chart Ansicht",
+    "exactlyOneTrait": "Zum zeitlichen vergleich muss exakt ein Merkmal ausgewählt werden."
+  },
+  "ImportPage": {
+    "title": "Import",
+    "description": "In diesem Bereich können sie können Sie neue Daten importieren. Bitt wählen Sie unten eine Kategorie."
+  },
+  "AerialImagePage": {
+    "title": "Drohnen-Bilder import",
+    "description": "In diesem Bereich können Luftbilder importiert werden.",
+    "zipDescription": "Die zip Datei muss eine georeferenzierte Bilddatei beinhalten.",
+    "websocketNotReady":"Import fehlgeschlagen. WebSocket nicht bereit. Seite neu laden.",
+    "uploadZip": "Zip-Datei hochladen",
+    "validating": "Validiert…",
+    "format": "Format",
+    "pleaseChoose": "Bitte auswählen",
+    "sensor": "Sensor",
+    "uploadStatus": "Uploadstatus",
+    "startImport": "Import starten",
+    "serverProcessStatus": "Prozessierung",
+    "existingData": "Für den ausgewählten Versuch wurden am ausgewählten Zeitpunkt bereits Daten importiert."
+  },
+  "TractorImagePage": {
+    "title": "Traktor-Bilder Import",
+    "description": "In diesem Bereich können Aufnahmen vom Kamerasystem des Traktoranhängers importiert werden.",
+    "zipDescription": "Die zip Datei muss die einzelnen Bilddateien sowie die Shapefiles beinhalten. Das Shapefile muss über eine Attributspalte verfügen, mitdem die Bilddateien refrenziert werden können.",
+    "websocketNotReady":"Import fehlgeschlagen. WebSocket nicht bereit. Seite neu laden.",
+    "uploadZip": "Zip-Datei hochladen",
+    "validating": "Validiert…",
+    "format": "Format",
+    "pleaseChoose": "Bitte auswählen",
+    "sensor": "Sensor",
+    "uploadStatus": "Uploadstatus",
+    "startImport": "Import starten",
+    "tractorImageFileName": "Wählen Sie das Attribut, das den Dateinamen enthält",
+    "tractorImageDisplayName": "Wählen Sie das Attribute, das als Überschrift verwendet werden soll",
+    "startLayerImport": "Layerimport starten"
+  },
+  "MeasurementsPage": {
+    "title": "Messdaten Import",
+    "description": "In diesem Bereich können Sie neue Messdaten in tabellarischer Form importieren. Wählen Sie dazu eine Versuch und die zu importierenden Merkmale aus.",
+    "pleaseChoose": "Bitte auswählen"
+  },
+  "LandingPage": {
+    "title": "Willkommen",
+    "description": "Der CropWatch Client ist ein Tool zum Import, zur Verwaltung, Analyse und georäumlichen Darstellung von agrarökonmischen Daten."
+  },
+  "LoginPage": {
+    "login": "Anmelden"
+  },
+  "MapPage": {
+    "themeSelection": "Themenauswahl",
+    "addWms": "WMS Layer hinzufügen",
+    "wmsContent": "Fensterinhalt.",
+    "tractorPhotos": "TraktorFotos - (Parzelle: {{plot}} - Position: {{position}})",
+    "transparency": "Transparenz"
+  },
+  "RegistrationPage": {
+    "registration": "Registrierung"
+  },
+  "LegendPanel": {
+    "title": "Legende"
+  },
+  "WmsPanel": {
+    "addAllLayers": "Alle Layer hinzufügen",
+    "addSelectedLayers": "Ausgewählte Layer hinzufügen",
+    "capabilitiesParseError": "WMS Capabilities-Dokument konnte nicht gelesen werden.",
+    "geoNrwLayers": "Themenkarten des GEOportal.nrw",
+    "drillings": "Bohrungen",
+    "drillingsNrw": "Bohrungen NRW (maßstabsunabhängig)",
+    "soilMap": "Bodenkarte",
+    "soilMapOverview": "Übersicht zur Bodenkarte von NRW 1 : 5 000",
+    "soilMapDetail": "Bodenkarte von NRW 1 : 50 000",
+    "geology": "Geologie",
+    "geologicalOverview": "Geologische Übersichtskarte von NRW 1 : 500 000",
+    "geologicalMap": "Geologische Karte von NRW 1 : 100 000",
+    "geothermics": "Geothermie",
+    "nearSurfaceMap": "Oberflächennahe Geothermie von NRW 1 : 50 000",
+    "hydrogeology": "Hydrogeologie",
+    "hydroOverview": "Hydrogeologische Übersichtskarte von NRW 1 : 500 000",
+    "hydroMap": "Hydrogeologische Karte von NRW 1 : 100 000",
+    "hydroOverviewGermany": "Hydrogeologische Übersichtskarte von Deutschland 1 : 200 000",
+    "hydroGroundWater": "Hydrogeologische Übersichtskarte von Deutschland 1 : 200 000 – Schutzpotenzial der Grundwasserüberdeckung",
+    "hydroBackground": "Hydrogeologische Übersichtskarte von Deutschland 1 : 200 000 – Hintergrundwerte",
+    "resources": "Rohstoffe",
+    "resourcesOverview": "Rohstoffübersichtskarte von NRW 1 : 1 000 000",
+    "resourcesOverview2": "Rohstoffübersichtskarte von NRW 1 : 500 000",
+    "unconsolidatedRock": "Rohstoffkarte von NRW 1 : 50 000 Lockergesteine",
+    "consolidatedRock": "Rohstoffkarte von NRW 1 : 50 000 Festgesteine",
+    "enterUrl": "Bitte eine WMS GetCapabilites URL angeben oder einen Dienst des GEOportal.nrw wählen…",
+    "url": "GetCapabilities-URL",
+    "orthoFotos": "Luftbilder"
+  },
+  "RemoteSelectField": {
+    "noRequestUrl": "Keine Request-URL definiert.",
+    "selectAll": "Alle auswählen"
+  },
+  "ManagementGrid": {
+    "validation": {
+      "isRequired": "Feld {{field}} darf nicht leer sein.",
+      "isNotANumber": "Feld {{field}} muss eine Zahl enthalten.",
+      "isNotAnInteger": "Feld {{field}} muss eine Ganzzahl enthalten.",
+      "decimalSeperator": "Feld {{field}} muss den Dezimaltrenner '.' verwenden."
+    },
+    "csv": {
+      "unknownExperimentalFactors": "Invalides CSV. Die CSV-Datei enthält die unbekannten Versuchsfaktoren {{invalidFactors}}. Bitte legen Sie diese zuerst an.",
+      "parsingError": "Fehler beim lesen der CSV Datei: {{error}}.",
+      "noCsvFile": "Dies scheint keine CSV Datei zu sein.",
+      "emptyHeader": "Die CSV Datei enthält leere Werte in der Kopfzeile.",
+      "parsed": "{{count}} Entitäte(n) aus {{fileName}} eingelesen."
+    },
+    "encoding": "Enkodierung",
+    "fieldSeperator": "Feldtrenner",
+    "textSeperator": "Texttrenner",
+    "tabulator": "Tabulator",
+    "comma": "Komma",
+    "semicolon": "Semikolon",
+    "space": "Leerzeichen",
+    "singleQuote": "Einfache Anführungszeichen",
+    "doubleQuote": "Doppelte Anführungszeichen",
+    "csvFile": "CSV Datei",
+    "jsonBEditorTitle": "JSONB Editor",
+    "loadingSuccess": "{{count}} Entitäte(n) von {{modelName}} geladen.",
+    "importData": "Daten importieren",
+    "importing": "Importiert…",
+    "importSuccess": "{{count}} Entitäte(n) von {{modelName}} importiert.",
+    "deleteConfirm": "Wollen sie die selektierten Einträge wirklich löschen?",
+    "deleting": "Löscht…",
+    "deleteSuccess": "{{count}} Entitäte(n) von {{modelName}} gelöscht.",
+    "saveConfirm": "Wollen sie die Änderungen wirklich speichern?",
+    "saving": "Aktualisiert…",
+    "saveSuccess": "{{count}} Entitäte(n) von {{modelName}} aktualisiert.",
+    "featureEditorTitle": "Geometrie Editor"
+  },
+  "ImportGrid": {
+    "validation": {
+      "isRequired": "Feld {{trait}} darf nicht leer sein.",
+      "isNotANumber": "Feld {{trait}} muss eine Zahl enthalten.",
+      "isNotAnInteger": "Feld {{trait}} muss eine Ganzzahl enthalten.",
+      "decimalSeperator": "Feld {{trait}} muss den Dezimaltrenner '.' verwenden."
+    },
+    "csv": {
+      "parsingError": "Fehler beim lesen der CSV Datei: {{error}}.",
+      "noCsvFile": "Dies scheint keine CSV Datei zu sein.",
+      "emptyHeader": "Die CSV Datei enthält leere Werte in der Kopfzeile.",
+      "parsed": "{{count}} Spalten aus {{fileName}} eingelesen."
+    },
+    "encoding": "Enkodierung",
+    "fieldSeperator": "Feldtrenner",
+    "textSeperator": "Texttrenner",
+    "tabulator": "Tabulator",
+    "comma": "Komma",
+    "dot": "Punkt",
+    "decimalSeperator": "Dezimaltrenner",
+    "semicolon": "Semikolon",
+    "space": "Leerzeichen",
+    "singleQuote": "Einfache Anführungszeichen",
+    "doubleQuote": "Doppelte Anführungszeichen",
+    "csvFile": "CSV Datei",
+    "importData": "Daten importieren",
+    "importing": "Importiert…",
+    "importSuccess": "{{count}} Messreihen importiert.",
+    "importError": "Fehler beim Datenimport.",
+    "featureEditorTitle": "Geometrie Editor"
+  },
+  "EntityManagementPage": {
+    "title": "Verwaltung",
+    "description": "In diesem Bereich können sie bestehende Daten verwalten und neue Struktudaten importieren. \n Bitte wählen sie aus welche Daten Sie verwalten möchten.",
+    "structuralData": "Strukturdaten",
+    "measurementData": "Messdaten",
+    "rasterImportData": "Daten aus Rasterimport",
+    "metaData": "Metadaten",
+    "selectLabel": "Entität"
+  },
+  "FeatureEditor": {
+    "drawPoint": "Punkt zeichnen",
+    "drawLineString": "Linie zeichnen",
+    "drawPolygon": "Polygon zeichnen",
+    "selectAndModify": "Auswählen und Bearbeiten"
+  },
+  "Import": {
+    "prepareImport": "Layerimport wird vorbereitet...",
+    "prepareTask": "Layerdaten werden vorbereitet...",
+    "runImport": "Layerimport wird durchgeführt...",
+    "getLayerName": "Rufe Layernamen ab...",
+    "importSuccess": "Import von Layer {{layer}} erfolgreich abgeschlossen!",
+    "error": "Fehler beim Layerimport."
+  },
+  "StoreQueryPanel": {
+    "setQueryName": "Titel für Abfrage eingeben",
+    "querySaved": "Abfrage \"{{title}}\" gespeichert"
+  },
+  "TimeseriesChartPanel": {
+    "title": "Timeseries",
+    "add": "Linie hinzufügen",
+    "reset": "Chart zurücksetzen",
+    "yAxisField": "Zeitattribut",
+    "xAxesFields": "Merkmale"
+  },
+  "EventLog": {
+    "eventLog": "Ereignis Protokoll"
+  }
+}

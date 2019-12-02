@@ -1,0 +1,96 @@
+@import '../../../variables.less';
+
+.mappage {
+  .map-container {
+    flex: 1;
+    min-height: 0;
+
+    .map {
+      height: 70%;
+    }
+
+    .feature-grid {
+      height: 30%;
+    }
+  }
+
+  .react-geo-toolbar {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+  .ant-modal-header {
+    background-color: #d0d0d0;
+    color: @primary-color;
+    padding: inherit;
+  }
+
+  .layer-tree-panel {
+
+    z-index: 8;
+
+    .body {
+      display: flex;
+      flex-direction: column;
+
+      .layer-tree {
+        flex: 1;
+        overflow-y: auto;
+
+        .react-geo-layertree-node.tree-leaf {
+          display: flex;
+          align-items: flex-start;
+
+          .ant-tree-checkbox {
+            top: 0px;
+          }
+
+          .ant-tree-node-content-wrapper {
+            flex: 1;
+            display: flex;
+            height: auto;
+
+            .ant-tree-title {
+              width: 100%;
+            }
+            .layer-node {
+
+              .layer-node-title {
+                display: flex;
+
+                .layer-node-tools {
+                  flex: 1;
+                }
+
+                .fa {
+                  line-height: inherit;
+                  margin-left: 5px;
+                }
+              }
+
+              .transparency-slider-container {
+                display: flex;
+                align-items: center;
+
+                .label {
+                  min-width: 90px;
+                }
+
+                .ant-slider {
+                  flex: 1;
+                  min-width: 80px;
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .add-wms-window {
+    position: fixed;
+  }
+}

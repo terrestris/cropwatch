@@ -1,0 +1,48 @@
+.import-page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  .import-select-field {
+    align-self: flex-start;
+    width: 400px;
+  }
+
+  input[type="file"].ant-input {
+    border: inherit;
+  }
+
+  form.ant-form-inline {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "input input input"
+      "input input input"
+      "footer footer footer";
+
+    .ant-form-item {
+      display: flex;
+      padding: 20px;
+      margin-bottom: 5px;
+
+      .ant-form-item-label {
+        flex: inherit;
+      }
+      .ant-form-item-control-wrapper {
+        flex: 1;
+
+        .ant-select {
+          width: 100%;
+        }
+      }
+    }
+
+    .react-geo-simplebutton {
+      width: 120px;
+      grid-area: footer;
+    }
+
+  }
+
+}

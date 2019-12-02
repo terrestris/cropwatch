@@ -1,0 +1,11 @@
+/**
+ * We currently don't use typescript in our project, but it seems
+ * like this is the only way of getting rid of the experimentalDecorators
+ * warning in vscode. Compare https://bit.ly/2NOvdDs
+ */
+{
+  "compilerOptions": {
+      "experimentalDecorators": true,
+      "allowJs": true
+  }
+}

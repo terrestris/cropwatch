@@ -1,0 +1,89 @@
+.chart-data-page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  .chart-menu {
+    min-height: 42px;
+    padding: 0 20px;
+  }
+
+  .chart-container {
+    flex: 1;
+    padding: 5px;
+  }
+
+  .controls {
+    width: 50%;
+    justify-content: flex-end;
+    align-content: center;
+
+    .ant-form-item {
+      display: flex;
+      margin: 0;
+      padding: 0 20px;
+
+      .ant-form-item-label {
+        flex: inherit;
+      }
+      .ant-form-item-control-wrapper {
+        flex: 1;
+
+        .ant-select {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+
+  &:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    pointer-events: none;
+  }
+
+  &.n:after {
+    content: "\25BC";
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+  }
+
+  &.e:after {
+    content: "\25C0";
+    margin: -4px 0 0 0;
+    top: 50%;
+    left: -8px;
+  }
+
+  &.s:after {
+    content: "\25B2";
+    margin: 0 0 1px 0;
+    top: -8px;
+    left: 0;
+    text-align: center;
+  }
+
+  &.w:after {
+    content: "\25B6";
+    margin: -4px 0 0 -1px;
+    top: 50%;
+    left: 100%;
+  }
+}

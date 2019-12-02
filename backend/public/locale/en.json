@@ -1,0 +1,416 @@
+{
+  "General": {
+    "yes": "Yes",
+    "no": "No",
+    "save": "Save",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "close": "Close",
+    "ok": "Ok",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "from": "From",
+    "until": "Until",
+    "search": "Search",
+    "import": "Import",
+    "edit": "Edit",
+    "loading": "Loading",
+    "error": "Error",
+    "warning": "Warning",
+    "title": "Title",
+    "pleaseChoose": "Please choose"
+  },
+  "Entities": {
+    "crop": "Crop",
+    "crops": "Crops",
+    "experiment": "Experiment",
+    "experimentalfactor": "Experimental Factor",
+    "experimentalfactors": "Experimental Factors",
+    "experiments": "Experiments",
+    "farm": "Farm",
+    "farms": "Farms",
+    "field": "Field",
+    "fields": "Fields",
+    "manager": "Manager",
+    "managers": "Managers",
+    "plot": "Plot",
+    "plots": "Plots",
+    "rasterfile": "Rasterfile",
+    "rasterfiles": "Rasterfiles",
+    "sort": "Sort",
+    "sorts": "Sorts",
+    "storedqueries": "Stored Queries",
+    "storedquery": "Stored Query",
+    "trait": "Trait",
+    "traitcollection": "Trait Collection",
+    "traitcollections": "Trait Collections",
+    "traits": "Traits",
+    "weatherstation": "Weatherstation",
+    "weatherstations": "Weatherstations"
+  },
+  "Models": {
+    "Plot": {
+      "remarks": "Remarks",
+      "croprotation": "Croprotation",
+      "replicationLevel": "ReplicationLevel",
+      "harvestyear": "Harvestyear"
+    }
+  },
+  "Routes": {
+    "analysis": "Analysis",
+    "management": "Management",
+    "data": "Data Administration",
+    "import": "Import",
+    "map": "Map",
+    "entity": "Structural Data",
+    "measurements": "Measurements",
+    "tractor": "Tractor Images",
+    "aerial": "Aerial Images",
+    "grid": "Grid",
+    "chart": "Chart",
+    "login": "Login",
+    "registration": "Registration"
+  },
+  "WebSocket": {
+    "closedByServer": "WebSocket connection closed by server"
+  },
+  "LoginForm": {
+    "name": "Name",
+    "username": "Username",
+    "password": "Password",
+    "failed": "Login failed",
+    "bytokenfailed": "Get User By Token Failed"
+  },
+  "RegistrationForm": {
+    "failed": "Registration failed",
+    "success": "Registration for user {{user}} successful. You can know login.",
+    "title": "Title",
+    "givenname": "Given name",
+    "familyname": "Family name",
+    "username": "Username",
+    "email": "email",
+    "password": "Password",
+    "confirmpassword": "Confirm password",
+    "mobile": "Mobile",
+    "landline": "Landline",
+    "fax": "Fax",
+    "street": "Street",
+    "housenumber": "House number",
+    "zipcode": "Zipcode",
+    "city": "City",
+    "register": "Register",
+    "projectPassword": "Project password"
+  },
+  "ImprintButton": {
+    "imprint": "Imprint"
+  },
+  "ImprintDialog": {
+    "close": "Close",
+    "imprint": "Imprint",
+    "technicalImplementation": "Technical implementation:",
+    "phone": "Phone",
+    "fax": "Fax"
+  },
+  "FeatureGrid": {
+    "parcels": "Plots",
+    "weatherStation": "Weather station",
+    "timestamp": "Timestamp",
+    "experimentFactor": "Experiment factor {{factor}}",
+    "noGeometry": "Selected feature does not contain a geometry.",
+    "measurements": "Measurements",
+    "fields": "Fields",
+    "valueBasedStyling": "Value based styling"
+  },
+  "GridMenu": {
+    "columnVisibility": "Column visibility",
+    "adaptColumns": "Adapt column width to screen",
+    "categories": {
+      "allocation": "Allocations (spatial/time)",
+      "association": "Associations (entities)",
+      "property": "Plot properties",
+      "characteristics": "Sort characteristics",
+      "experimentalFactor": "Experimental Factors",
+      "trait": "Traits",
+      "general": "General"
+    },
+    "sum": "Sum Total",
+    "min": "Minimum",
+    "max": "Maximum",
+    "avg": "Average",
+    "columnBased": "Column based",
+    "rowBased": "Row based",
+    "statistics": "Statistics"
+  },
+  "AnalysisGrid": {
+    "geometry": "Geometry",
+    "timestamp": "Timestamp",
+    "experimentFactor": "Experiment factor {{factor}}",
+    "dataUpdated": "Data was successfully updated.",
+    "dataError": "Data could not be updated: {{error}}",
+    "dataLoading": "Data is being loaded",
+    "measurements": "Measurements",
+    "exportAsCsv": "Export as csv",
+    "addToChart": "Add to line chart",
+    "showChart": "Show line chart",
+    "resetChart": "Reset line chart"
+  },
+  "ApplicationHeader": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout {{user}}",
+    "map": "Map",
+    "data": "Data",
+    "management": "Management",
+    "analysis": "Analysis",
+    "aerials": "Aerial Images",
+    "measurements": "Measurements",
+    "tractor": "Tractor Images"
+  },
+  "LanguageSwitcher": {
+    "language": "Language",
+    "languages": {
+      "de": "German",
+      "en": "English"
+    }
+  },
+  "CopterLayerSlider": {
+    "orthofotos": "Aerials-Slider"
+  },
+  "DataAnalysisPage": {
+    "advancedMode": "Advanced",
+    "search": "Search data",
+    "weatherStations": "Weather stations",
+    "fields": "Fields",
+    "experiments": "Experiments",
+    "parcel": "Plot",
+    "from": "From",
+    "until": "Until",
+    "includePoints": "Within Filter",
+    "includePointsTooltip": "If checked, only point measurements contained within the selected plots will be returned.",
+    "traitCollection": "Trait collection",
+    "traits": "Traits",
+    "limitSearch": "Please narrow search (max. 20.000 hits)",
+    "showResults": "Show {{count}} results",
+    "searchResults": "Search ({{count}})",
+    "reset": "Reset",
+    "storeQuery": "Save query",
+    "selectStoredQuery": "Load stored query",
+    "day": "day",
+    "week": "week",
+    "month": "month",
+    "year": "year",
+    "days": "days",
+    "weeks": "weeks",
+    "months": "months",
+    "years": "years",
+    "last": "Last",
+    "lasts": "Last",
+    "intervalType": "Interval",
+    "measurementsLoaded": "{{count}} measurements loaded",
+    "compareByTimestamp": "Temporal comparison",
+    "compareByTimestampTooltip": "Temporal comparsion of Traits",
+    "gridView": "To Grid-View",
+    "chartView": "To Table-View",
+    "exactlyOneTrait": "Exactly one Trait has to be selected to allow temporal comparisohn."
+  },
+  "ImportPage": {
+    "title": "Import",
+    "description": "In this section you can import new data. Please choose a category below."
+  },
+  "AerialImagePage": {
+    "title": "Aerial image import",
+    "description": "In this section you can import new aerial images.",
+    "zipDescription": "The zip file has to contain one georeferenced aerial image.",
+    "websocketNotReady": "Import failed. WebSocket not ready. Consider page reload.",
+    "uploadZip": "Upload zip file",
+    "validating": "Validating…",
+    "format": "Format",
+    "pleaseChoose": "Please choose",
+    "sensor": "Sensor",
+    "uploadStatus": "Upload status",
+    "startImport": "Begin import",
+    "serverProcessStatus": "Processing",
+    "existingData": "An aerial image for the selected Experiment and timestamp was already imported."
+  },
+  "TractorImagePage": {
+    "title": "Tractor image import",
+    "description": "In this section you can import new images of the camerasystem mounted on the tractor.",
+    "zipDescription": "The zip file has to contain the images and the corresponding shapefiles. The shape file has to contain an attribute to reference to the image names.",
+    "websocketNotReady": "Import failed. WebSocket not ready. Consider page reload.",
+    "uploadZip": "Upload zip file",
+    "validating": "Validating…",
+    "format": "Format",
+    "pleaseChoose": "Please choose",
+    "sensor": "Sensor",
+    "uploadStatus": "Uploadstatus",
+    "startImport": "Begin import",
+    "tractorImageFileName": "Select the attribute containing the file name",
+    "tractorImageDisplayName": "Select the attribute containing the image title",
+    "startLayerImport": "Start layer import"
+  },
+  "MeasurementsPage": {
+    "title": "Measurements import",
+    "description": "In this section you can import new measurements. Please choose an experiment and the traits you want to import.",
+    "pleaseChoose": "Please choose"
+  },
+  "LandingPage": {
+    "title": "Welcome",
+    "description": "The CropWatch client ist a tool to import, manage and analyse agricultur data."
+  },
+  "LoginPage": {
+    "login": "Login"
+  },
+  "MapPage": {
+    "themeSelection": "Theme selection",
+    "addWms": "Add WMS",
+    "wmsContent": "This is the content of the window.",
+    "tractorPhotos": "Tractor photos - (Plot: {{plot}} - Position: {{position}})",
+    "transparency": "Transparency"
+  },
+  "RegistrationPage": {
+    "registration": "Registration"
+  },
+  "LegendPanel": {
+    "title": "Legend"
+  },
+  "WmsPanel": {
+    "addAllLayers": "Add all layers",
+    "addSelectedLayers": "Add selected layers",
+    "capabilitiesParseError": "Could not parse WMS capabilities document.",
+    "geoNrwLayers": "Themes from GEOportal.nrw",
+    "drillings": "Drillings",
+    "drillingsNrw": "Drillings NRW (scale independent)",
+    "soilMap": "Soil map",
+    "soilMapOverview": "Soil map overview NRW (1 : 5.000)",
+    "soilMapDetail": "Soil map NRW (1 : 50.000)",
+    "geology": "Geology",
+    "geologicalOverview": "Geological overview NRW (1 : 500.000)",
+    "geologicalMap": "Geological map NRW (1 : 100.000)",
+    "geothermics": "Geothermics",
+    "nearSurfaceMap": "Near surface geothermics NRW (1 : 50.000)",
+    "hydrogeology": "Hydrogeology",
+    "hydroOverview": "Hydrogeological overview NRW (1 : 500.000)",
+    "hydroMap": "Hydrogeological map NRW (1 : 100.000)",
+    "hydroOverviewGermany": "Hydrogeological overview Germany (1 : 200.000)",
+    "hydroGroundWater": "Hydrogeological overview Germany (1 : 200.000) - protection potential groundwater",
+    "hydroBackground": "Hydrogeological overview Germany (1 : 200.000) - background map",
+    "resources": "Resources",
+    "resourcesOverview": "Resources overview NRW (1 : 1.000.000)",
+    "resourcesOverview2": "Resources overview NRW (1 : 500.000)",
+    "unconsolidatedRock": "Resources overview NRW (1 : 50.000) - unconsolidated rock",
+    "consolidatedRock": "Resources overview NRW (1 : 50.000) - consolidated rock",
+    "enterUrl": "Please enter a WMS GetCapabilities URL or select a service of GEOportal.nrw…",
+    "url": "GetCapabilities-URL",
+    "orthoFotos": "Aerials"
+  },
+  "RemoteSelectField": {
+    "noRequestUrl": "No request url defined.",
+    "selectAll": "Select all"
+  },
+  "ManagementGrid": {
+    "validation": {
+      "isRequired": "Field {{field}} is required.",
+      "isNotANumber": "Field {{field}} is not a number.",
+      "isNotAnInteger": "Field {{field}} is not an integer.",
+      "decimalSeperator": "Field {{field}} has to use '.' as decimal seperator."
+    },
+    "csv": {
+      "unknownExperimentalFactors": "Invalid CSV. The File contains unknown ExperimentalFactors {{invalidFactors}}. Please create those first.",
+      "parsingError": "Error while reading CSV: {{error}}.",
+      "noCsvFile": "This doesn't theme to be a CSV file.",
+      "emptyHeader": "CSV contains empty headers.",
+      "parsed": "Parsed {{count}} rows from {{fileName}}."
+    },
+    "encoding": "Encoding",
+    "fieldSeperator": "Field Seperator",
+    "textSeperator": "Text Seperator",
+    "tabulator": "Tabulator",
+    "comma": "Comma",
+    "semicolon": "Semicolon",
+    "space": "Space",
+    "singleQuote": "Single Quote",
+    "doubleQuote": "Double Quote",
+    "csvFile": "CSV File",
+    "jsonBEditorTitle": "JSONB Editor",
+    "loadingSuccess": "{{count}} {{modelName}}(s) loaded.",
+    "importData": "Import Data",
+    "importing": "Importing…",
+    "importSuccess": "{{count}} {{modelName}}(s) imported.",
+    "deleteConfirm": "Are you sure you want to delete the selected rows?",
+    "deleting": "Deleting…",
+    "deleteSuccess": "{{count}} {{modelName}}(s) deleted.",
+    "saveConfirm": "Are you sure you want to save the changes?",
+    "saving": "Updating…",
+    "saveSuccess": "{{count}} {{modelName}}(s) update.",
+    "featureEditorTitle": "Geometry Editor"
+  },
+  "ImportGrid": {
+    "validation": {
+      "isRequired": "Field {{trait}} is required.",
+      "isNotANumber": "Field {{trait}} is not a number.",
+      "isNotAnInteger": "Field {{trait}} is not an integer.",
+      "decimalSeperator": "Field {{trait}} has to use '.' as decimal seperator."
+    },
+    "csv": {
+      "parsingError": "Error while reading CSV: {{error}}.",
+      "noCsvFile": "This doesn't theme to be a CSV file.",
+      "emptyHeader": "CSV contains empty headers.",
+      "parsed": "Parsed {{count}} rows from {{fileName}}."
+    },
+    "encoding": "Encoding",
+    "fieldSeperator": "Field Seperator",
+    "textSeperator": "Text Seperator",
+    "tabulator": "Tabulator",
+    "comma": "Comma",
+    "dot": "Dot",
+    "decimalSeperator": "Decimal Seperator",
+    "semicolon": "Semicolon",
+    "space": "Space",
+    "singleQuote": "Single Quote",
+    "doubleQuote": "Double Quote",
+    "csvFile": "CSV File",
+    "importData": "Import Data",
+    "importing": "Importing…",
+    "importSuccess": "{{count}} measurement(s) imported.",
+    "importError": "Error while importing.",
+    "featureEditorTitle": "Geometry Editor"
+  },
+  "EntityManagementPage": {
+    "title": "Management",
+    "description": "In this section you can manage your existing data or import new structural data. \n Please choose which data you want to manage.",
+    "structuralData": "Structural data",
+    "measurementData": "Measurements",
+    "rasterImportData": "Data from raster import",
+    "selectLabel": "Entity"
+  },
+  "FeatureEditor": {
+    "drawPoint": "Draw Point",
+    "drawLineString": "Draw LineString",
+    "drawPolygon": "Draw Polygon",
+    "selectAndModify": "Select and Modify",
+    "metaData": "Metadata"
+  },
+  "Import": {
+    "prepareImport": "Preparing layer import...",
+    "prepareTask": "Preparing layer data...",
+    "runImport": "Performing import...",
+    "getLayerName": "Getting layer name...",
+    "importSuccess": "Import of layer {{layer}} was successful!",
+    "error": "Error during Layerimport."
+  },
+  "StoreQueryPanel": {
+    "setQueryName": "Set query title",
+    "querySaved": "Query \"{{title}}\" saved"
+  },
+  "TimeseriesChartPanel": {
+    "title": "Timeseries",
+    "add": "Add line",
+    "reset": "Reset chart",
+    "yAxisField": "Timeattribute",
+    "xAxesFields": "Traits"
+  },
+  "EventLog": {
+    "eventLog": "Event log"
+  }
+}

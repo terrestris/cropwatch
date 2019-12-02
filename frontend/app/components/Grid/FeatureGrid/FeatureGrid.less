@@ -1,0 +1,42 @@
+.feature-grid {
+  display: flex;
+  flex-direction: column;
+
+  .grid-wrapper {
+    flex: 1;
+    min-height: 0;
+  }
+
+  // This overrides the default padding for this...
+  .ag-cell-not-inline-editing {
+    padding-top: 0;
+  }
+
+  .ag-theme-fresh .ag-row {
+    &.ag-row-hover {
+      background-color: rgba(0, 76, 255, 0.33);
+    }
+  }
+
+  .ag-theme-fresh .ag-row-selected {
+    background-color: rgba(255, 179, 0, 0.33);
+    &.ag-row-hover {
+      background-color: rgba(0, 76, 255, 0.33);
+    }
+  }
+
+  .ant-dropdown-menu-item {
+    list-style: none;
+  }
+
+  .feature-grid .ag-body-viewport {
+    overflow-x: hidden;
+  }
+
+  .ag-floating-bottom-container .ag-cell,
+  .statistics-column {
+    font-weight: bold;
+    font-style: italic;
+  }
+}
+

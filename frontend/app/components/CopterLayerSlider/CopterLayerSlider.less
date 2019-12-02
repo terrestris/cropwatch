@@ -1,0 +1,33 @@
+@import "../../variables.less";
+
+.copter-layer-slider {
+  z-index: 8;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  background-color: @background-color;
+  padding: 5px;
+  border-radius: 0 0 3px 3px;
+
+  .experiment-select-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .label {
+      color: @primary-color;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .ant-select-arrow {
+      display: none;
+    }
+
+  }
+
+  .slider-wrapper {
+    padding: 0 50px;
+  }
+}

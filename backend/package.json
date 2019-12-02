@@ -1,0 +1,72 @@
+{
+  "name": "cropwatch-backend",
+  "version": "1.0.0",
+  "description": "The CropWatch backend.",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terrestris/cropwatch"
+  },
+  "keywords": [
+    "CropWatch"
+  ],
+  "private": true,
+  "author": "terrestris GmbH & Co. KG",
+  "contributors": [
+    {
+      "name": "André Henn",
+      "email": "henn@terrestris.de",
+      "url": "https://github.com/ahennr"
+    },
+    {
+      "name": "Marc Jansen",
+      "email": "jansen@terrestris.de",
+      "url": "https://github.com/marcjansen"
+    },
+    {
+      "name": "Daniel Koch",
+      "email": "koch@terrestris.de",
+      "url": "https://github.com/dnlkoch"
+    },
+    {
+      "name": "Johannes Weskamm",
+      "email": "weskamm@terrestris.de",
+      "url": "https://github.com/weskamm"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix .",
+    "start": "node ./index.js",
+    "start:dev": "NODE_ENV=development npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "1.18.3",
+    "eslint": "5.12.1",
+    "eslint-plugin-node": "8.0.1",
+    "express": "4.16.4",
+    "express-ws": "4.0.0",
+    "jsonwebtoken": "8.4.0",
+    "jszip": "3.1.5",
+    "lodash": "4.17.11",
+    "moment": "2.24.0",
+    "passport": "0.4.0",
+    "passport-jwt": "4.0.0",
+    "pg": "7.8.0",
+    "pg-native": "3.0.0",
+    "request": "2.88.0",
+    "request-promise-native": "1.0.5",
+    "sequelize": "4.42.0",
+    "sequelize-cli": "5.4.0",
+    "shpjs": "3.4.3",
+    "stream-to-buffer": "0.1.0",
+    "tmp": "0.0.33",
+    "winston": "3.1.0"
+  },
+  "engines": {
+    "node": ">=8.3.0"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "name": "cropwatch-frontend",
+  "version": "1.0.0",
+  "description": "The CropWatch frontend.",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terrestris/cropwatch"
+  },
+  "keywords": [
+    "CropWatch"
+  ],
+  "private": true,
+  "author": "terrestris GmbH & Co. KG",
+  "contributors": [
+    {
+      "name": "Kai Volland",
+      "email": "volland@terrestris.de",
+      "url": "https://github.com/kaivolland"
+    },
+    {
+      "name": "Andreas Schmitz",
+      "email": "schmitz@terrestris.de",
+      "url": "https://github.com/hwbllmnn"
+    },
+    {
+      "name": "André Henn",
+      "email": "henn@terrestris.de",
+      "url": "https://github.com/ahennr"
+    },
+    {
+      "name": "Marc Jansen",
+      "email": "jansen@terrestris.de",
+      "url": "https://github.com/marcjansen"
+    },
+    {
+      "name": "Daniel Koch",
+      "email": "koch@terrestris.de",
+      "url": "https://github.com/dnlkoch"
+    },
+    {
+      "name": "Johannes Weskamm",
+      "email": "weskamm@terrestris.de",
+      "url": "https://github.com/weskamm"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha --compilers js:babel-register --recursive 'app/spec/**/*.test.js*'",
+    "coverage": "istanbul cover _mocha -- --compilers js:babel-register --colors --reporter dot --recursive 'app/spec/**/*.test.js*'",
+    "lint": "eslint --ext .jsx,.js app/**",
+    "lint-fix": "eslint --fix --ext .jsx,.js app/**",
+    "start:dev": "webpack-dev-server --content-base app/ --hot --progress",
+    "prebuild": "npm run test && rimraf ./build/* && npm run build-ol",
+    "build:production": "NODE_ENV=production webpack --optimize-minimize --progress --config webpack.config.js --mode production",
+    "build:test": "webpack --optimize-minimize --progress --config webpack.config.js"
+  },
+  "dependencies": {
+    "@terrestris/base-util": "0.1.4",
+    "@terrestris/d3-util": "0.5.0",
+    "@terrestris/legend-util": "0.1.0",
+    "@terrestris/ol-util": "1.6.0",
+    "@terrestris/react-geo": "11.1.0",
+    "ag-grid-community": "19.1.4",
+    "ag-grid-react": "19.1.2",
+    "antd": "3.13.1",
+    "chroma-js": "2.0.2",
+    "d3": "5.8.2",
+    "d3-tip": "0.9.1",
+    "geostyler": "3.0.0",
+    "geostyler-geojson-parser": "0.4.6",
+    "geostyler-openlayers-parser": "1.0.0",
+    "i18next": "14.0.1",
+    "i18next-browser-languagedetector": "2.2.4",
+    "i18next-xhr-backend": "1.5.1",
+    "js-logger": "1.6.0",
+    "jwt-decode": "2.2.0",
+    "ol": "5.3.0",
+    "papaparse": "4.6.3",
+    "proj4": "2.5.0",
+    "prop-types": "15.6.2",
+    "query-string": "6.2.0",
+    "react": "16.7.0",
+    "react-color": "2.17.0",
+    "react-dom": "16.7.0",
+    "react-fa": "5.0.0",
+    "react-i18next": "9.0.10",
+    "react-redux": "6.0.0",
+    "react-router-dom": "4.3.1",
+    "redux": "4.0.1",
+    "redux-thunk": "2.3.0",
+    "roboto-fontface": "0.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "7.3.0",
+    "@babel/plugin-proposal-decorators": "7.3.0",
+    "@babel/plugin-proposal-function-bind": "7.2.0",
+    "@babel/plugin-transform-react-jsx": "7.3.0",
+    "@babel/polyfill": "7.2.5",
+    "@babel/preset-env": "7.3.1",
+    "@babel/preset-react": "7.0.0",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "8.0.5",
+    "babel-preset-env": "1.7.0",
+    "copy-webpack-plugin": "4.6.0",
+    "css-loader": "2.1.0",
+    "enzyme": "3.8.0",
+    "eslint": "5.13.0",
+    "eslint-plugin-html": "5.0.3",
+    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-react-native": "3.6.0",
+    "exports-loader": "0.7.0",
+    "file-loader": "3.0.1",
+    "image-webpack-loader": "4.6.0",
+    "imports-loader": "0.8.0",
+    "jszip": "3.1.5",
+    "less": "3.9.0",
+    "less-loader": "4.1.0",
+    "rimraf": "2.6.3",
+    "style-loader": "0.23.1",
+    "webpack": "4.29.1",
+    "webpack-bundle-analyzer": "3.0.3",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.1.14"
+  }
+}

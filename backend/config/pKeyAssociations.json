@@ -1,0 +1,14 @@
+{
+  "Experiment": "expcode",
+  "ExperimentalFactor": "german",
+  "Farm": "name",
+  "Field": "name",
+  "Manager": "lastname",
+  "User": "username",
+  "Plot": "name",
+  "Trait": "german",
+  "TraitCollection": "title",
+  "WeatherStation": "name",
+  "Crop": "name",
+  "Sort": "name"
+}

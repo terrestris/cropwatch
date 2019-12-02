@@ -1,0 +1,63 @@
+@import "../../../variables.less";
+
+.data-analysis-page {
+  padding: 0 20px;
+
+  .react-geo-toolbar {
+    background-color: @background-color;
+    padding: 5px 0;
+
+    &.bottom-toolbar {
+      padding: 5px 20px;
+
+      .switch-view-button {
+        margin-left: auto;
+      }
+    }
+  }
+
+  .ant-form-item {
+    padding: 0 20px;
+    display: flex;
+    margin-bottom: 0;
+
+    .ant-form-item-label {
+      flex: 1;
+    }
+
+    .ant-form-item-label,
+    .ant-form-item-control-wrapper,
+    .ant-form-item-control {
+      line-height: 32px;
+    }
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+    .entity-fields,
+    .temporal-fields,
+    .measurment-fields,
+    .temporal-comparsion-fields {
+      padding: 20px;
+    }
+
+    .ant-form-item {
+      margin-bottom: 5px;
+
+      .ant-form-item-label {
+        flex: inherit;
+      }
+      .ant-form-item-control-wrapper {
+        flex: 1;
+
+        .ant-select {
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+}
